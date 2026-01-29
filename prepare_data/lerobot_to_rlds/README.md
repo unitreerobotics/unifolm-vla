@@ -4,7 +4,6 @@ However the original code requires python<=3.9 which is imcompatible with lerobo
 
 Steps: 
 (1) `python convert_lerobot_to_hdf5.py` in a lerobot conda environment 
-python convert_lerobot_to_hdf5.py  --repo-id=lerobot/z1_plug_charge   --output-dir=/home/jiang/datasets/Unifolm_VLA/hdf5_format_dataset/z1_plug_charge --local-files-only --root=/home/jiang/datasets/Unifolm_VLA/lerobot2.0_format_dataset/z1_plug_charger/
 
 
 (2) switch to rlds_dataset envoironment (see https://github.com/moojink/rlds_dataset_builder/tree/main) and run `tfds build --overwrite`
