@@ -66,7 +66,7 @@ pip install "flash-attn==2.5.6" --no-build-isolation
 
 | 模型 | 描述 | 链接 |
 |---|---|---|
-| `UnifoLM-VLM-Base` | 在通用图文VQA数据、[Open-X](https://robotics-transformer-x.github.io/) 数据集、[星海图](https://opengalaxea.github.io/GalaxeaVLA/)数据集上微调后的模型 | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLM-Base) |
+| `UnifoLM-VLM-Base` | 在通用图文VQA数据和开源机器人数据上微调后的模型 | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLM-Base) |
 | `UnifoLM-VLA-Base` | 在 [宇树科技开源数据集](https://huggingface.co/collections/unitreerobotics/unifolm-vla-0)上微调后的模型 | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLA-Base) |
 | `UnifoLM-VLA-LIBERO` | 在 [LIBERO](https://libero-project.github.io/) 数据集上微调后的模型 | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLA-Libero) |
 
@@ -184,4 +184,4 @@ unifolm-vla/
 ```
 
 ## 🙏 致谢声明
-本项目代码基于以下优秀开源项目构建，特此致谢：[Qwen2.5-VL](https://arxiv.org/abs/2502.13923), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),  [Open-X](https://robotics-transformer-x.github.io/), [Galaxea Open-World Dataset](https://opengalaxea.github.io/GalaxeaVLA/), [openvla-oft](https://github.com/moojink/openvla-oft), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1)。
+本项目代码基于以下优秀开源项目构建，特此致谢：[Qwen2.5-VL](https://arxiv.org/abs/2502.13923), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),  [Open-X](https://robotics-transformer-x.github.io/), [openvla-oft](https://github.com/moojink/openvla-oft), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1)。
