@@ -100,9 +100,9 @@ python convert_lerobot_to_hdf5.py \
     --data_path /path/to/your/source_dir/dataset1_name \
     --target_path /path/to/save/the/converted/data/directory
 ```
-Finally, run the following command to convert the HDF5 format into the RLDS dataset format required for training. Be sure to update the path ([here](prepare_data/lerobot_to_rlds/lerobot_dataset/lerobot_dataset_dataset_builder.py#L232)) to the correct location of the HDF5 data.
+Finally, run the following command to convert the HDF5 format into the RLDS dataset format required for training. Be sure to update the path ([here](prepare_data/hdf5_to_rlds/rlds_dataset/rlds_dataset.py#L232)) to the correct location of the HDF5 data.
 ```
-cd prepare_data/lerobot_to_rlds/lerobot_dataset
+cd prepare_data/hdf5_to_rlds/rlds_dataset
 tfds build  --data_dir  /path/to/save/the/converted/data/directory
 ```
 The directory structure of the converted RLDS dataset is as follows:

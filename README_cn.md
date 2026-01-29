@@ -102,9 +102,9 @@ python convert_lerobot_to_hdf5.py \
     --data_path /path/to/your/source_dir/dataset1_name \
     --target_path /path/to/save/the/converted/data/directory
 ```
-最后执行以下命令将hdf5格式转化为训练需要的RLDS数据集格式，记得修改hdf5数据的地址([here](prepare_data/lerobot_to_rlds/lerobot_dataset/lerobot_dataset_dataset_builder.py#L232)),  `data_dir`表示rlds数据集存放地址
+最后执行以下命令将hdf5格式转化为训练需要的RLDS数据集格式，记得修改hdf5数据的地址([here](prepare_data/hdf5_to_rlds/rlds_dataset/rlds_dataset.py#L232)),  `data_dir`表示rlds数据集存放地址
 ```
-cd prepare_data/lerobot_to_rlds/lerobot_dataset
+cd prepare_data/hdf5_to_rlds/rlds_dataset
 tfds build  --data_dir  /path/to/save/the/converted/data/directory
 ```
 转完的RLDS数据目录结构如下
