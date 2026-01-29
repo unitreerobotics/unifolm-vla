@@ -11,10 +11,22 @@
 </div>
 
 **UnifoLM-VLA-0** is a Vision–Language–Action (VLA) large model in the UnifoLM series, designed for general-purpose humanoid robot manipulation. It goes beyond the limitations of conventional Vision–Language Models (VLMs) in physical interaction. Through continued pre-training on robot manipulation data, the model evolves from "vision-language understanding" to an "embodied brain" equipped with physical common sense.
-<div style="display:flex; gap:24px; margin-top:24px;"> <div style="flex:1; padding:20px; border:1px solid #e5e7eb; border-radius:12px;"> <h3 style="margin-top:0;">
-Spatial Semantic Enhancement</h3> <p> To address the requirements for instruction comprehension and spatial understanding in manipulation tasks, the model deeply integrates textual instructions with 2D/3D spatial details through continued pre-training, <strong>substantially strengthening its spatial perception and geometric understanding capabilities..</strong></p> </div> 
-<div style="flex:1; padding:20px; border:1px solid #e5e7eb; border-radius:12px;"> <h3 style="margin-top:0;">
-Manipulation Generalization</h3> <p> By leveraging full dynamics prediction data, the model achieves strong generalization across diverse manipulation tasks. In real-robot validation, <strong>it can complete 12 categories of complex manipulation tasks with high quality using only a single policy.</strong> </p> </div> </div>
+
+<table width="100%">
+  <tr>
+    <th width="50%">Spatial Semantic Enhancement</th>
+    <th width="50%">Manipulation Generalization</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      To address the requirements for instruction comprehension and spatial understanding in manipulation tasks, the model deeply integrates textual instructions with 2D/3D spatial details through continued pre-training, <strong>substantially strengthening its spatial perception and geometric understanding capabilities.</strong>
+    </td>
+    <td valign="top">
+      By leveraging full dynamics prediction data, the model achieves strong generalization across diverse manipulation tasks. In real-robot validation, <strong>it can complete 12 categories of complex manipulation tasks with high quality using only a single policy.</strong>
+    </td>
+  </tr>
+</table>
+
 
 
 <div align="center">
