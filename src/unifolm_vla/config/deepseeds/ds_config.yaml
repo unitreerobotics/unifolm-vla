@@ -1,0 +1,28 @@
+{
+    "fp16": {
+        "enabled": "auto",
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "initial_scale_power": 16,
+        "hysteresis": 2,
+        "min_loss_scale": 1
+    },
+    "bf16": {
+        "enabled": "auto"
+    },
+    "train_micro_batch_size_per_gpu": "auto",
+    "train_batch_size": "auto",
+    "gradient_accumulation_steps": 1,
+    "zero_optimization": {
+        "stage": 2,
+        "allgather_partitions": true,
+        "allgather_bucket_size": 5e8,
+        "reduce_scatter": true,
+        "reduce_bucket_size": 5e8,
+        "overlap_comm": true,
+        "contiguous_gradients": true,
+        "cpu_offload": false
+    },
+    "gradient_clipping": 1.0,
+    "steps_per_print": 10
+}
