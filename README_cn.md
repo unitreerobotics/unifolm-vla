@@ -1,9 +1,10 @@
 # UnifoLM-VLA-0: A Vision-Language-Action (VLA) Framework under UnifoLM Family
  <p style="font-size: 1.2em;">
-    <a href="https://unigen-x.github.io/unifolm-world-model-action.github.io"><strong>项目主页</strong></a> | 
-    <a href="https://huggingface.co/collections/unitreerobotics/unifolm-wma-0-68ca23027310c0ca0f34959c"><strong>开源模型</strong></a> |
+    <a href="https://unigen-x.github.io/unifolm-vla.github.io"><strong>项目主页</strong></a> | 
+    <a href="https://huggingface.co/unitreerobotics/models"><strong>开源模型</strong></a> |
     <a href="https://huggingface.co/unitreerobotics/datasets"><strong>开源数据</strong></a> 
   </p>
+
 <div align="center">
   <p align="right">
     <span> 🌎English </span> | <a href="README_cn.md"> 🇨🇳中文 </a>
