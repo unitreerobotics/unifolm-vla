@@ -11,9 +11,21 @@
 </div>
 
 **UnifoLM-VLA-0** 是 UnifoLM 系列下面向通用人形机器人操作的视觉-语言-动作（VLA）大模型。该模型旨在突破传统 VLM 在物理交互中的局限，通过在机器人操作数据上的继续预训练，实现了从通用"图文理解"向具备物理常识的"具身大脑"的进化。
-<div style="display:flex; gap:24px; margin-top:24px;"> <div style="flex:1; padding:20px; border:1px solid #e5e7eb; border-radius:12px;"> <h3 style="margin-top:0;">
-空间语义增强</h3> <p> 针对操作任务的对指令和图像理解需求，模型通过继续预训练深度融合了文本指令与2D/3D空间细节，<strong>增强了模型的空间感知能力</strong>。 </p> </div> <div style="flex:1; padding:20px; border:1px solid #e5e7eb; border-radius:12px;"> <h3 style="margin-top:0;">
-通用操作泛化</h3> <p> 构建了全链路动力学预测数据，模型具备更好的任务泛化性。在真机验证中 <strong>仅需单一策略即可高质量完成 12 类复杂的操作任务</strong>。 </p> </div> </div>
+
+<table width="100%">
+  <tr>
+    <th width="50%">空间语义增强</th>
+    <th width="50%">通用操作泛化</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      针对操作类任务中对指令理解与空间感知的高要求，模型通过继续预训练深度融合了文本指令与2D/3D空间细节, <strong>增强了模型的空间感知能力</strong>。
+    </td>
+    <td valign="top">
+      构建了全链路动力学预测数据，模型具备更好的任务泛化性。在真机验证中, <strong>仅需单一策略即可高质量完成 12 类复杂的操作任务</strong>。
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img 
@@ -171,4 +183,4 @@ unifolm-vla/
 ```
 
 ## 🙏 致谢声明
-本项目代码基于以下优秀开源项目构建，特此致谢：[Qwen2.5-VL](https://arxiv.org/abs/2502.13923), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),  [Open-X]((https://robotics-transformer-x.github.io/)), [Galaxea Open-World Dataset](https://opengalaxea.github.io/GalaxeaVLA/), [openvla-oft](https://github.com/moojink/openvla-oft), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1)。
+本项目代码基于以下优秀开源项目构建，特此致谢：[Qwen2.5-VL](https://arxiv.org/abs/2502.13923), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),  [Open-X](https://robotics-transformer-x.github.io/), [Galaxea Open-World Dataset](https://opengalaxea.github.io/GalaxeaVLA/), [openvla-oft](https://github.com/moojink/openvla-oft), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1)。
