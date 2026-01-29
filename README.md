@@ -64,7 +64,7 @@ pip install "flash-attn==2.5.6" --no-build-isolation
 ## 🧰 Model Checkpoints
 | Model | Description | Link|
 |---------|-------|------|
-|`UnifoLM-VLM-Base` | Fine-tuned on general-purpose image–text VQA data, [Open-X](https://robotics-transformer-x.github.io/) dataset, [Galaxea Open-World Dataset](https://opengalaxea.github.io/GalaxeaVLA/). | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLM-Base)|
+|`UnifoLM-VLM-Base` | Fine-tuned on general-purpose image–text VQA data and open-source robot datasets. | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLM-Base)|
 |`UnifoLM-VLA-Base` | Fine-tuned on [Unitree opensource](https://huggingface.co/collections/unitreerobotics/g1-dex1-datasets-68bae98bf0a26d617f9983ab) dataset. | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLA-Base)|
 |`UnifoLM-VLA-LIBERO`| Fine-tuned on [Libero](https://huggingface.co/collections/unitreerobotics/g1-dex1-datasets-68bae98bf0a26d617f9983ab) dataset. | [HuggingFace](https://huggingface.co/unitreerobotics/Unifolm-VLA-Libero)|
 
@@ -183,7 +183,7 @@ unifolm-vla/
 ```
 
 ## 🙏 Acknowledgement
-Lots of code are inherited from [Qwen2.5-VL](https://arxiv.org/abs/2502.13923), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),  [Open-X](https://robotics-transformer-x.github.io/), [Galaxea Open-World Dataset](https://opengalaxea.github.io/GalaxeaVLA/), [openvla-oft](https://github.com/moojink/openvla-oft), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1).
+Lots of code are inherited from [Qwen2.5-VL](https://arxiv.org/abs/2502.13923), [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T),  [Open-X](https://robotics-transformer-x.github.io/), [openvla-oft](https://github.com/moojink/openvla-oft), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1).
 
 ## 📝 Citation
 ```
